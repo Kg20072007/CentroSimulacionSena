@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="verdeSena">#39A900</color>
+    <color name="verdeOscuro">#1F6F43</color>
+    <color name="verdeClaro">#F1F8E9</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>
