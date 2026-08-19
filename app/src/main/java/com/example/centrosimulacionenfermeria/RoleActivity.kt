@@ -13,7 +13,7 @@ class RoleActivity : AppCompatActivity() {
 
         val instructor = findViewById<CardView>(R.id.cardInstructor)
         val admin = findViewById<CardView>(R.id.cardAdmin)
-        val estudiante = findViewById<CardView>(R.id.cardEstudiante)
+        val estudiante = findViewById<CardView>(R.id.cardAprendiz)
 
         instructor.setOnClickListener {
             startActivity(
@@ -29,7 +29,7 @@ class RoleActivity : AppCompatActivity() {
 
         estudiante.setOnClickListener {
             startActivity(
-                Intent(this, EstudianteHomeActivity::class.java)
+                Intent(this, HomeActivity::class.java)
             )
         }
     }
